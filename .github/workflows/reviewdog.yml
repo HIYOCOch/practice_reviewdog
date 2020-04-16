@@ -1,7 +1,7 @@
 name: reviewdog
 on: [pull_request]
-branches:
-  - develop
+  branches:
+    - develop
 jobs:
   reviewdog:
     name: reviewdog
